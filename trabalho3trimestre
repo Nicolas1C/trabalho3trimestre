@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Michelangelo</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<h1 style="text-align: center">Quem foi Michelangelo?</h1>
@@ -29,25 +30,49 @@
 
 <img src="SantoAntonio.jpg">
  <h3>Sua Última Obra</h3>
- <h4>Pietà Rondanini
+<h4>Pietà Rondanini</h4>
 
  <img src="Pietà.jpg">
 
 
-<h3>DAVID</h3>
+<h2 style="text-align: center">Suas Obras Mais Famosas</h2>
+<h3>DAVID</h3>  
 
-	<img src="banner.jpg">  
+		<ul style="font-size: 20px">O trabalho retrata o herói bíblico com realismo anatômico impressionante, sendo considerada uma das mais importantes obras do Renascimento. A escultura encontra-se em Florença, Itália, cidade que originalmente encomendou a obra.
+		A escultura possui 5,17 metros de altura e representa o herói bíblico David, um dos personagens mais frequentes na arte florentina.Originalmente encomendada como parte de uma série de outras estátuas de profetas e heróis bíblicos, David estava cotado para decorar uma das fachadas de Santa Maria del Fiore. No entanto, após sua conclusão, a escultura foi posicionada em frente ao Palazzo della Signoria, sede da governadoria de Florença, onde foi revelada ao público oficialmente em 8 de setembro de 1504.</ul>
 
- 		<p style="font-size: 20px">O trabalho retrata o herói bíblico com realismo anatômico impressionante, sendo considerada uma das mais importantes obras do Renascimento. A escultura encontra-se em Florença, Itália, cidade que originalmente encomendou a obra.
-		A escultura possui 5,17 metros de altura e representa o herói bíblico David, um dos personagens mais frequentes na arte florentina.Originalmente encomendada como parte de uma série de outras estátuas de profetas e heróis bíblicos, David estava cotado para decorar uma das fachadas de Santa Maria del Fiore. No entanto, após sua conclusão, a escultura foi posicionada em frente ao Palazzo della Signoria, sede da governadoria de Florença, onde foi revelada ao público oficialmente em 8 de setembro de 1504.</p>
+	<img src="David.jpg" class="imagemDavid">
 
 <h3>CAPELA SISTINA</h3>
-
-	<img src="Capela.jpg"> <img src="Sistina.jpg">
 
 		<p style="font-size: 20px">Esse é um trabalho realizado com a técnica do afresco e integra o conjunto de pinturas feitas no Teto da Capela Sistina, produzidas entre 1508 e 1512 por encomenda do papa Júlio II.
 		A criação de Adão é a representação da passagem bíblica em que o criador do mundo, Deus, dá origem à humanidade, simbolizada na figura do 	primeiro homem, Adão.
 		Essa foi a primeira obra em que um artista consegue expressar todo o mistério, espontaneidade e, ao mesmo tempo, força divina no ato da criação.</p>
 
+	<img src="Capela.jpg"> <img src="Sistina.jpg">
+
 <h2>Outras obras</h2>
- <img src="Escravo.jpg"> 	<img src="Madonna.jpg">
+
+<h3>Escravo</h3>
+
+ <img src="Escravo.jpg">
+
+ <h3>Madonna</h3>
+
+ <img src="Madonna.jpg">
+ 
+ 
+ 
+ style.css
+ 
+ body {
+	background: #dbb884;
+}
+
+.imagemDavid {
+	width: 15%;
+}
+
+ul {
+	display: inline-block;
+}
